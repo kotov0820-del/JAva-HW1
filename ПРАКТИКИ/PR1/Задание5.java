@@ -1,3 +1,5 @@
+package PR1;
+
 public class Задание5 {
     // Метод для вычисления факториала
     public static long factorial(int n) {

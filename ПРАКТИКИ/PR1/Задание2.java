@@ -1,3 +1,4 @@
+package PR1;
 
 import java.util.Scanner;
 

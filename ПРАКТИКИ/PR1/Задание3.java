@@ -1,3 +1,5 @@
+package PR1;
+
 public class Задание3{
         public static void main(String[] args) {
             // Проверяем, есть ли вообще аргументы

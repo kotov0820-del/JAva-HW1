@@ -1,2 +1,0 @@
-public class Задание6 {
-}

@@ -1,2 +1,2 @@
-# JAva-HW1
-Пр1
+# JAva-HW
+

@@ -1,0 +1,24 @@
+public class C {
+    public static void main(String[] args) {
+        // Ошибка 3: Создание объекта C для вызова метода экземпляра method1()
+        C objC = new C();
+        objC.method1(); // Вызов метода экземпляра через объект
+
+        // Ошибка 3: Создание объекта Circle перед использованием
+        Circle c = new Circle();
+        System.out.println("What is area " + c.getArea()); // Теперь допустимо
+
+        method2(); // Вызов статического метода (можно напрямую)
+    }
+
+    public void method1() {
+        // Ошибка 2: Вызов method2() был вне method1() и main()
+        // Если бы метод2 вызывался внутри, это было бы допустимо,
+        // так как метод экземпляра может вызывать статический метод.
+        System.out.println("Inside method1 (instance method)");
+    }
+
+    public static void method2() {
+        System.out.println("Inside method2 (static method)");
+    }
+}
